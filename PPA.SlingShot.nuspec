@@ -1,0 +1,16 @@
+<package>
+  <metadata>
+    <id>PPA.SlingShot</id>
+    <version>$version$</version>
+    <authors>Parametric Portfolio Associates</authors>
+    <owners>Parametric Portfolio Associates</owners>
+    <projectUrl>https://github.com/Parametric/PCR.Web-UI</projectUrl>
+    <description>https://github.com/Parametric/PCR.Web-UI</description>
+    <releaseNotes></releaseNotes>
+  </metadata>
+  <files>
+    <file src="build\*" target="" />
+    <file src="build\config\octopus\*.js" target="config" />
+    <file src="build\images\**" target="images" />
+  </files>
+</package>
